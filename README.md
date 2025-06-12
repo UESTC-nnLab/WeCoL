@@ -20,7 +20,7 @@ Different from general object detection, moving infrared small target detection 
 ![PR](PR.png)
 
 ## Datasets
-- You can download them directly from the website: [DAUB](https://www.scidb.cn/en/detail?dataSetId=720626420933459968), [ITSDT](https://www.scidb.cn/en/detail?dataSetId=de971a1898774dc5921b68793817916e&dataSetType=journal), [IRDST](https://xzbai.buaa.edu.cn/datasets.html).
+- You can download them directly from the website: [DAUB](https://www.scidb.cn/en/detail?dataSetId=720626420933459968), [ITSDT](https://www.scidb.cn/en/detail?dataSetId=de971a1898774dc5921b68793817916e&dataSetType=journal).
 - You can also directly download the organized version of our paper. [DAUB](https://pan.baidu.com/share/init?surl=nNTvjgDaEAQU7tqQjPZGrw&pwd=saew), [ITSDT-15K](https://drive.google.com/file/d/1nnlXK0QCoFqToOL-7WdRQCZfbGJvHLh2/view?usp=sharing). 
 - The COCO format json file needs to be converted into a txt format file. 
 ```
