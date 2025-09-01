@@ -9,7 +9,7 @@ Different from general object detection, moving infrared small target detection 
 
 ## Pretrained Models
 - InfMAE (Activation Generator). You can download from this [InfMAE](https://pan.baidu.com/s/1xofov5UWARRPVHB6586E2w?pwd=Apth) and put it into model_data/
-- SAM (Segmentation Foundation Model). You can download from this [sam_vit_h_4b8939](https://pan.baidu.com/s/1xofov5UWARRPVHB6586E2w?pwd=Apth](https://huggingface.co/HCMUE-Research/SAM-vit-h/blob/main/sam_vit_h_4b8939.pth) and put it into nets/segment_anything/pretrained/
+- SAM (Segmentation Foundation Model). You can download from this [sam_vit_h_4b8939](https://huggingface.co/HCMUE-Research/SAM-vit-h/blob/main/sam_vit_h_4b8939.pth) and put it into nets/segment_anything/pretrained/
 
 ## Prerequisite
 - scipy==1.10.1
