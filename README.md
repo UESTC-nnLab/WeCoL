@@ -7,6 +7,10 @@
 ## Abstract
 Different from general object detection, moving infrared small target detection faces huge challenges due to tiny target size and weak background contrast. Currently, most existing methods is fully-supervised, heavily relying on a large number of manual target-wise annotations. However, manually annotating video sequences is often expensive and time-consuming, especially for low-quality infrared frame images. Inspired by general object detection, non-fully supervised strategies (e.g., weakly supervised) are believed to be potential in reducing annotation requirement. To break through traditional fully-supervised frameworks, as the first exploration work, this paper proposes a new weakly-supervised contrastive learning (WeCoL) scheme, only needing simple target quantity prompts in model training. Specifically, in our scheme, based on the pretrained segment anything model (SAM), a potential target mining strategy is designed to integrate target activation maps and multi-frame energy accumulation. Besides, contrastive learning is adopted to further improve the reliability of pseudo-labels, by calculating the similarity between positive and negative samples in feature subspace. Moreover, we proposes a long-short term motion-aware learning scheme to simultaneously model the local motion patterns and global motion trajectory of small targets. The extensive experiments on two public datasets (DAUB and ITSDT-15K) verify that our weakly-supervised scheme could often outperform early fully-supervised methods. Even, its performance could reach over 90% of state-of-the-art (SOTA) fully-supervised ones. 
 
+## Pretrained Models
+- InfMAE (Activation Generator). You can download from this [InfMAE](https://pan.baidu.com/s/1xofov5UWARRPVHB6586E2w?pwd=Apth) and put it into model_data/
+- SAM (Segmentation Foundation Model). You can download from this [sam_vit_h_4b8939.pth]([https://pan.baidu.com/s/1xofov5UWARRPVHB6586E2w?pwd=Apth](https://huggingface.co/HCMUE-Research/SAM-vit-h/blob/main/sam_vit_h_4b8939.pth)) and put it into nets/segment_anything/pretrained/
+
 ## Prerequisite
 - scipy==1.10.1
 - numpy==1.24.4
