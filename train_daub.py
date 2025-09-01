@@ -232,8 +232,7 @@ if __name__ == "__main__":
     #   获得图片路径和标签
     #----------------------------------------------------#
     DATA_PATH = "/home/public/DAUB/"
-    # train_annotation_path ='/home/dww/OD/weak_stream5/txt/Num_DAUB_train.txt'
-    train_annotation_path ='/home/dww/OD/weak_stream5bei/pseudo_gt/pse_DAUB_train.txt'
+    train_annotation_path ='/home/dww/OD/weak_stream5/txt/Num_DAUB_train.txt'
     val_annotation_path = '/home/public/DAUB/coco_val_DAUB.txt'
 
 

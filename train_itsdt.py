@@ -235,8 +235,7 @@ if __name__ == "__main__":
 
     ##ITSDT
     DATA_PATH = "/home/public/ITSDT/"
-    # train_annotation_path ='/home/dww/OD/weak_stream5/txt/Num__ITSDT_train.txt' 
-    train_annotation_path ='/home/dww/OD/weak_stream5bei/pseudo_gt/pse_ITSDT_train.txt'
+    train_annotation_path ='/home/dww/OD/weak_stream5/txt/Num__ITSDT_train.txt' 
     val_annotation_path = '/home/public/ITSDT/coco_val_ITSDT.txt'
 
     #------------------------------------------------------#
