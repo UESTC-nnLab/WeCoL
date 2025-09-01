@@ -65,11 +65,11 @@ CUDA_VISIBLE_DEVICES=0 python train_{dataset}.py
 ### Test
 - Usually model_best.pth is not necessarily the best model. The best model may have a lower val_loss or a higher AP50 during verification.
 ```
-CUDA_VISIBLE_DEVICES=0 python vid_map_coco.py
+CUDA_VISIBLE_DEVICES=0 python test_{dataset}.py
 ```
 ### Visulization
 ```
-python vid_predict.py
+python predict.py
 ```
 
 ### Mapping Relations
