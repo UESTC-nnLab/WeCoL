@@ -5,7 +5,7 @@ import torch
 from thop import clever_format, profile
 from torchsummary import summary
 
-from nets.slowfastnet import slowfastnet as Network
+from nets.wecol import slowfastnet as Network
 
 if __name__ == "__main__":
     input_shape = [512, 512]
@@ -72,3 +72,4 @@ if __name__ == "__main__":
                 flush=True)
             break
     print("FPS:" ,fps)
+
