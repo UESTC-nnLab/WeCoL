@@ -5,7 +5,7 @@ import cv2
 import numpy as np
 from PIL import Image
 
-from predict import get_history_imgs
+from test_daub import get_history_imgs
 import colorsys
 import os
 import time
