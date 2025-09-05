@@ -5,7 +5,7 @@ import cv2
 import numpy as np
 from PIL import Image
 
-from vid_map_daub import get_history_imgs
+from predict import get_history_imgs
 import colorsys
 import os
 import time
@@ -15,7 +15,7 @@ import torch
 import torch.nn as nn
 from PIL import ImageDraw, ImageFont
 
-from nets.slowfastnet import slowfastnet as Network
+from nets.wecol import slowfastnet as Network
 
 from utils.utils import (cvtColor, get_classes, preprocess_input, resize_image,
                          show_config)
