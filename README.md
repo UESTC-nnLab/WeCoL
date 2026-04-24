@@ -1,7 +1,7 @@
 # WeCoL
 **Weakly-supervised Contrastive Learning with Quantity Prompts for Moving Infrared Small Target Detection**
 
-**The complete codes have been uploaded**
+**Due to the reinstallation of the server's operating system, the main network files for this repository code are missing. We will update this repository as soon as possible.**
 
 ![frame](frame.png)
 ## Abstract
